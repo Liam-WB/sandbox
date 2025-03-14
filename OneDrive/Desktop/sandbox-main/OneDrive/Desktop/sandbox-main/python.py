@@ -25,4 +25,14 @@
 # Async IO
 
 # ADVANCED SKILLS
+# Decorators
+# Generators
+# Context Managers
+# Metaclasses
+# Concurrency
+# Parallelism
+# Testing - Unit testing and test driven development
+# Packages (Building/Managing)
+# Cython
+
 # EXTRA SKILLS
