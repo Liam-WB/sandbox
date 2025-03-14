@@ -34,8 +34,18 @@ def value_example(val):
 def get_value_example(val):
     return val
 
-message = get_value_example(23)
-print(message)
+message = get_value_example("23")
+file = open("result.txt", "w") # <-- Opens a file
+file.write(message) # <-- Writes the returned value to file
+
+# Increment function
+def increment(*numbers):
+    total = 2
+    for number in numbers:
+        total *= number # <-- Shorthand for multiply total by number, replace total value
+    print(total)
+
+increment(1,2,3,4,2)
 
 # Mutable vs Immutable
 # Common Methods
