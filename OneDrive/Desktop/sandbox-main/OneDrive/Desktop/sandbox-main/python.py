@@ -1,5 +1,22 @@
 # FUNDAMENTAL SKILLS
 # Variables
+
+int1 = 10
+
+float1 = 2.5
+
+str1 = "Hello World!"
+
+bool1 = False
+
+list1 = ["a", "b", "c"] #Mutable
+
+tuple1 = (1.5, 2.5) #Immutable (Can't change)
+
+set1 = {1, 4, 2, 9} #Mutable, can't have duplicates
+
+dict1 = {"name": "Bob", "age": 24} #Mutable
+
 # Conditions
 # Chained Conditionals
 # Operators
