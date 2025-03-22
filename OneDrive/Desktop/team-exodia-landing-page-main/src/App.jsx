@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Logo from './assets/LOGO.png'
 import './App.css'
 
 function App() {
@@ -9,24 +8,23 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0&ab_channel=Duran" target="_blank">
+          <img src={Logo} className="logo" alt="Logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>This is a WIP!</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        © 2025 Team Exodia Project. All Rights Reserved.
+        -Contact
+        -Legal Links
+        -Language Selector
+        -Technology used
+        -Upcoming Game Teaser
       </p>
     </>
   )
