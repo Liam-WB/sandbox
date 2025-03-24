@@ -7,9 +7,12 @@ const App = () => {
       <img 
         src={ logo }
         alt="Centered Image" 
-        className="mb-8 object-cover"
-        style={{ width: '26em', height: '26em' }} 
+        className="object-cover"
+        style={{ width: '40em', height: '26em' }} 
       />
+      <h2 className="text-[2em] font-bold text-white">
+        Thanks for your input!
+      </h2>
       <h1 className="text-[6em] font-bold text-white">
         Big things coming...
       </h1>
