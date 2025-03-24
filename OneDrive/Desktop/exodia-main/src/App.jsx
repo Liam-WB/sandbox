@@ -13,6 +13,9 @@ const App = () => {
       <h1 className="text-[6em] font-bold text-white">
         Big things coming...
       </h1>
+      <footer class="text-white text-center py-10 mt-8">
+        <p>&copy; 2025 Team Exodia Project. All Rights Reserved.</p>
+      </footer>
     </div>
   )
 }
