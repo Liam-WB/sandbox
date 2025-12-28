@@ -1,0 +1,10 @@
+^C:\USERS\WARAD\ONEDRIVE\DESKTOP\CODESOULS-MAIN\BUILD\CMAKEFILES\D80133D220689ED9660D883AAA4B678C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/warad/OneDrive/Desktop/CODESOULS-main -BC:/Users/warad/OneDrive/Desktop/CODESOULS-main/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/warad/OneDrive/Desktop/CODESOULS-main/build/Project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
